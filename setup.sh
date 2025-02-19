@@ -50,3 +50,5 @@ brew install neofetch
 brew install neovim
 
 mv .config/ ~/.config/
+
+cat .zshrc > ~/.zshrc

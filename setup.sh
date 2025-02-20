@@ -49,6 +49,12 @@ brew install neofetch
 # -- Install neovim --
 brew install neovim
 
+# -- install p10k --
+brew install powerlevel10k
+
+# -- move the configuration --
 mv .config/ ~/.config/
 
+# -- move the zsh file --
 cat .zshrc > ~/.zshrc
+source ~/.zshrc
